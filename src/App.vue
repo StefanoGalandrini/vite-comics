@@ -1,25 +1,38 @@
 <script>
 import AppContent from "./components/AppContent.vue";
+import AppCta from "./components/AppCta.vue";
 import AppFooter from "./components/AppFooter.vue";
 import AppHeader from "./components/AppHeader.vue";
+import AppIcons from "./components/AppIcons.vue";
 export default {
-	components: {AppHeader, AppContent, AppFooter},
+	components: {AppHeader, AppContent, AppFooter, AppIcons, AppCta},
 };
 </script>
 
 <template>
-	<AppHeader>
-		<div class="container"></div>
-	</AppHeader>
+	<AppHeader></AppHeader>
 
-	<AppContent> </AppContent>
+	<AppContent></AppContent>
+
+	<AppIcons></AppIcons>
 
 	<AppFooter> </AppFooter>
+
+	<AppCta></AppCta>
 </template>
 
 <style lang="scss">
-$blue: #0282f9;
-$darkgrey: #303030;
-$lightgrey: #808080;
-$grey: #353535;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-family: "Noto Sans", sans-serif;
+}
 </style>

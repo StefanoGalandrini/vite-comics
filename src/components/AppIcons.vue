@@ -4,15 +4,16 @@ export default {};
 
 <template>
 	<div class="container">
-		<div class="content"></div>
+		<div class="content">Icons</div>
 	</div>
 </template>
 
 <style lang="scss" scoped>
+$color-blue: #0282f9;
 .container {
-	height: 13vh;
+	height: 16vh;
 	color: white;
-	background-color: $blue;
+	background-color: $color-blue;
 }
 
 .content {

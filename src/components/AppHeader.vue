@@ -4,15 +4,16 @@ export default {};
 
 <template>
 	<div class="container">
-		<nav></nav>
+		<nav>Nav</nav>
 	</div>
 </template>
 
 <style lang="scss" scoped>
+$color-darkgrey: #303030;
 .container {
-	height: 10vh;
+	height: 13vh;
 	background-color: white;
-	color: $darkgrey;
+	color: $color-darkgrey;
 }
 
 nav {

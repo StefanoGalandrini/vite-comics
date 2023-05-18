@@ -1,28 +1,26 @@
 <script>
-import AppCta from "./AppCta.vue";
-import AppIcons from "./AppIcons.vue";
-
-export default {components: {AppIcons, AppCta}};
+export default {};
 </script>
 
 <template>
 	<div class="container">
-		<AppIcons></AppIcons>
-		<footer></footer>
-		<AppCta></AppCta>
+		<footer>Footer links</footer>
 	</div>
 </template>
 
 <style lang="scss" scoped>
+$color-grey: #353535;
 .container {
-	height: 80vh;
-	background-color: $grey;
-}
-
-footer {
-	height: 57vh;
+	height: 45vh;
+	background-color: $color-grey;
 	background-image: url(../assets/img/footer-bg.jpg);
 	background-size: cover;
 	background-position: center center;
+}
+
+footer {
+	max-width: 70vw;
+	margin-inline: auto;
+	color: white;
 }
 </style>
