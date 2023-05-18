@@ -1,7 +1,11 @@
 <script>
-export default {};
+import AppIcons from "./AppIcons.vue";
+
+export default {components: {AppIcons}};
 </script>
 
-<template></template>
+<template>
+	<AppIcons> </AppIcons>
+</template>
 
 <style lang="scss" scoped></style>
