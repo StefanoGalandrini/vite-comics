@@ -51,6 +51,7 @@ $color-blue: #0282f9;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		cursor: pointer;
 
 		img {
 			max-width: 30%;
