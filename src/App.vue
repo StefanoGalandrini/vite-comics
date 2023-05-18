@@ -8,11 +8,18 @@ export default {
 </script>
 
 <template>
-	<AppHeader> </AppHeader>
+	<AppHeader>
+		<div class="container"></div>
+	</AppHeader>
 
 	<AppContent> </AppContent>
 
 	<AppFooter> </AppFooter>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+$blue: #0282f9;
+$darkgrey: #303030;
+$lightgrey: #808080;
+$grey: #353535;
+</style>

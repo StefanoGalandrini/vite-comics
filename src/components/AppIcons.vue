@@ -2,6 +2,21 @@
 export default {};
 </script>
 
-<template></template>
+<template>
+	<div class="container">
+		<div class="content"></div>
+	</div>
+</template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.container {
+	height: 13vh;
+	color: white;
+	background-color: $blue;
+}
+
+.content {
+	max-width: 70vw;
+	margin-inline: auto;
+}
+</style>

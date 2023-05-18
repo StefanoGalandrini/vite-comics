@@ -4,18 +4,18 @@ export default {};
 
 <template>
 	<div class="container">
-		<nav></nav>
+		<div class="cta"></div>
 	</div>
 </template>
 
 <style lang="scss" scoped>
 .container {
-	height: 10vh;
-	background-color: white;
-	color: $darkgrey;
+	height: 13vh;
+	color: white;
+	background-color: $blue;
 }
 
-nav {
+.content {
 	max-width: 70vw;
 	margin-inline: auto;
 }
