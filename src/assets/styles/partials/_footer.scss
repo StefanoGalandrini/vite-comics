@@ -1,5 +1,7 @@
 $color-grey: #353535;
 $color-lightgrey: #909090;
+$marginbottom: 0.4rem;
+$lineheight: 1.7rem;
 
 footer {
 	max-width: 70vw;
@@ -28,7 +30,7 @@ footer {
 
 		.title,
 		.last-title {
-			margin-bottom: 0.5rem;
+			margin-bottom: $marginbottom;
 			font-family: "Encode Sans Condensed", sans-serif;
 			font-size: 1.25rem;
 			font-weight: bold;
@@ -36,7 +38,7 @@ footer {
 
 		li {
 			font-size: 0.9rem;
-			line-height: 1.7rem;
+			line-height: $lineheight;
 		}
 
 		a {
@@ -46,7 +48,7 @@ footer {
 		}
 
 		li.last-title {
-			margin-top: 2rem;
+			margin-top: calc($lineheight - $marginbottom);
 		}
 	}
 }

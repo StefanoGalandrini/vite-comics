@@ -24,7 +24,7 @@ export default {};
 				<ul>
 					<li class="title">DC</li>
 					<li><a href="#">Terms Of Use</a></li>
-					<li><a href="#">Privacy policy (New</a>)</li>
+					<li><a href="#">Privacy policy (New)</a></li>
 					<li><a href="#">Ad Choiches</a></li>
 					<li><a href="#">Advertising</a></li>
 					<li><a href="#">jobs</a></li>
