@@ -10,7 +10,11 @@ export default {
 
 <template>
 	<div class="container">
-		<main>{{ content }}</main>
+		<main>
+			<div class="content">
+				{{ content }}
+			</div>
+		</main>
 	</div>
 </template>
 
@@ -23,7 +27,17 @@ $color-darkgrey: #303030;
 
 main {
 	max-width: 70vw;
+	height: 100%;
 	margin-inline: auto;
 	color: white;
+
+	.content {
+		height: 100%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
 }
 </style>
