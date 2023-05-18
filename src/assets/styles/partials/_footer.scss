@@ -1,0 +1,49 @@
+footer {
+	max-width: 70vw;
+	height: 100%;
+	margin-inline: auto;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+
+	.links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2rem;
+	}
+
+	ul.first li.title:last-child {
+		margin-top: 2rem;
+		color: red;
+	}
+
+	ul {
+		width: max-content;
+		list-style-type: none;
+
+		.title,
+		.last-title {
+			margin-bottom: 0.5rem;
+			font-family: "Encode Sans Condensed", sans-serif;
+			font-size: 1.25rem;
+			font-weight: bold;
+		}
+
+		li {
+			font-size: 0.9rem;
+			line-height: 1.7rem;
+		}
+
+		a {
+			text-decoration: none;
+			cursor: pointer;
+			color: white;
+		}
+
+		li.last-title {
+			margin-top: 2rem;
+		}
+	}
+}
