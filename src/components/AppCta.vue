@@ -27,7 +27,7 @@ export default {};
 					<i class="fa-brands fa-pinterest-p"></i>
 				</div>
 				<div class="icon">
-					<i class="fa-solid fa-location-dot"></i>
+					<i class="fa-brands fa-periscope"></i>
 				</div>
 			</div>
 		</div>
