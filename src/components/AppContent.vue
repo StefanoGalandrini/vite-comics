@@ -19,25 +19,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-$color-darkgrey: #303030;
+@use "../assets/styles/partials/contents" as *;
+
 .container {
 	height: 13vh;
 	background-color: $color-darkgrey;
-}
-
-main {
-	max-width: 70vw;
-	height: 100%;
-	margin-inline: auto;
-	color: white;
-
-	.content {
-		height: 100%;
-		display: flex;
-		justify-content: flex-start;
-		align-items: center;
-		font-size: 1.2rem;
-		font-weight: bold;
-	}
 }
 </style>

@@ -30,40 +30,10 @@ export default {};
 </template>
 
 <style lang="scss" scoped>
-$color-blue: #0282f9;
+@use "../assets/styles/partials/icons" as *;
 .container {
 	height: 16vh;
 	color: white;
 	background-color: $color-blue;
-}
-
-.content {
-	height: 100%;
-	max-width: 70vw;
-	margin-inline: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 2rem;
-
-	.item {
-		height: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		cursor: pointer;
-
-		img {
-			max-width: 30%;
-			height: 40%;
-			margin-right: 1rem;
-		}
-
-		span {
-			font-size: 0.9rem;
-			text-transform: uppercase;
-			white-space: nowrap;
-		}
-	}
 }
 </style>
