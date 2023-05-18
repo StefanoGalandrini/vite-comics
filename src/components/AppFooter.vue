@@ -55,7 +55,6 @@ export default {};
 <style lang="scss" scoped>
 @use "../assets/styles/partials/footer" as *;
 
-$color-grey: #353535;
 .container {
 	height: 45vh;
 	background-color: $color-grey;
