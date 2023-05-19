@@ -95,22 +95,16 @@ export default {
 
 <template>
 	<div class="jumbotron"></div>
-
-	<div class="container">
-		<main>
+	<main>
+		<div class="container">
 			<h1>current series</h1>
 			<div class="content" v-for="comic in dcComics" :key="comic.thumb">
 				<AppMagazine :title="comic.series" :cover="comic.thumb" />
 			</div>
-		</main>
-	</div>
+		</div>
+	</main>
 </template>
 
 <style lang="scss" scoped>
 @use "../assets/styles/partials/contents" as *;
-
-.container {
-	height: 70vh;
-	background-color: $color-darkgrey;
-}
 </style>

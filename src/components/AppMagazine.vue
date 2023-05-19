@@ -9,32 +9,37 @@ export default {
 			type: String,
 			required: true,
 		},
-		price: {
-			type: String,
-			required: false,
-		},
 	},
 };
 </script>
 
 <template>
-	<div class="comic">
-		<img :src="cover" alt="Cover" />
+	<div class="magazine">
+		<img :src="cover" alt="" />
 		<p class="title">{{ title }}</p>
 	</div>
 </template>
 
 <style lang="scss" scoped>
-.comic {
-	width: 15%;
-	height: 20%;
+.magazine {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 1rem;
 
 	img {
 		width: 100%;
 		aspect-ratio: 1 / 1;
+		overflow: hidden;
 		object-fit: cover;
 		object-position: top center;
-		overflow: hidden;
+	}
+
+	.title {
+		font-family: "Encode Sans Condensed", sans-serif;
+		text-transform: uppercase;
+		font-size: 0.8rem;
+		margin-bottom: 1rem;
 	}
 }
 </style>
