@@ -84,7 +84,7 @@ export default {
 @use "../assets/styles/partials/header" as *;
 
 .container {
-	height: 13vh;
+	height: 10vh;
 	background-color: white;
 	color: $color-darkgrey;
 }
