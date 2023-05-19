@@ -16,12 +16,11 @@ export default {
 
 	<AppIcons></AppIcons>
 
-	<AppFooter> </AppFooter>
-
-	<AppCta></AppCta>
+	<AppFooter></AppFooter>
 </template>
 
 <style lang="scss">
+@use "./assets/styles/general.scss" as *;
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@600&family=Open+Sans:wght@300;400;600&display=swap");
 
 *,

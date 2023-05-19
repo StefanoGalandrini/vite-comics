@@ -1,5 +1,8 @@
 <script>
-export default {};
+import AppCta from "./AppCta.vue";
+export default {
+	components: {AppCta},
+};
 </script>
 
 <template>
@@ -50,6 +53,8 @@ export default {};
 			</div>
 		</footer>
 	</div>
+
+	<AppCta></AppCta>
 </template>
 
 <style lang="scss" scoped>
