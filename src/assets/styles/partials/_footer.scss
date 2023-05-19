@@ -45,6 +45,10 @@ footer {
 			text-decoration: none;
 			cursor: pointer;
 			color: $color-lightgrey;
+
+			&:hover {
+				color: white;
+			}
 		}
 
 		li.last-title {

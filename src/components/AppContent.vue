@@ -101,6 +101,7 @@ export default {
 			<div class="content" v-for="comic in dcComics" :key="comic.thumb">
 				<AppMagazine :title="comic.series" :cover="comic.thumb" />
 			</div>
+			<button>load more</button>
 		</div>
 	</main>
 </template>

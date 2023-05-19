@@ -26,6 +26,24 @@ main {
 		flex-wrap: wrap;
 		gap: 1.5rem;
 
+		button {
+			background-color: $color-blue;
+			text-transform: uppercase;
+			outline: none;
+			border: none;
+			padding: 1rem 1.5rem;
+			font-family: "Encode Sans Condensed", sans-serif;
+			font-size: 1rem;
+			color: #cccccc;
+			cursor: pointer;
+			transition: all 300ms;
+
+			&:hover {
+				box-shadow: 0 0 3px 2px white;
+				color: white;
+			}
+		}
+
 		h1 {
 			position: absolute;
 			top: -7rem;
