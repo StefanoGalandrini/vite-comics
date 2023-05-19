@@ -49,7 +49,9 @@ export default {
 				</ul>
 			</div>
 			<div class="logo">
-				<img src="../assets/img/dc-logo-bg.png" alt="" />
+				<img
+					src="../assets/img/dc-logo-bg.png"
+					alt="" />
 			</div>
 		</footer>
 	</div>
@@ -61,7 +63,7 @@ export default {
 @use "../assets/styles/partials/footer" as *;
 
 .container {
-	height: 45vh;
+	height: 48vh;
 	background-color: $color-grey;
 	background-image: url(../assets/img/footer-bg.jpg);
 	background-size: cover;

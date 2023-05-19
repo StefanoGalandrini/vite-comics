@@ -37,7 +37,7 @@ export default {};
 <style lang="scss" scoped>
 @use "../assets/styles/partials/cta" as *;
 .container {
-	height: 13vh;
+	height: 10vh;
 	background-color: $color-grey;
 	color: white;
 }

@@ -75,19 +75,6 @@ export default {
 						</a>
 					</li>
 				</ul>
-
-				<!-- <ul class="menu">
-					<li><a class="item" href="#">characters</a></li>
-					<li><a class="item active" href="#">comics</a></li>
-					<li><a class="item" href="#">movies</a></li>
-					<li><a class="item" href="#">TV</a></li>
-					<li><a class="item" href="#">games</a></li>
-					<li><a class="item" href="#">collectibles</a></li>
-					<li><a class="item" href="#">videos</a></li>
-					<li><a class="item" href="#">fans</a></li>
-					<li><a class="item" href="#">news</a></li>
-					<li><a class="item" href="#">shop</a></li>
-				</ul> -->
 			</nav>
 		</div>
 	</div>
